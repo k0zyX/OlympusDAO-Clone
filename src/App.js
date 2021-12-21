@@ -5,6 +5,7 @@ import Features from './components/Features';
 import Introducing from './components/Introducing';
 import OlyZaps from './components/OlyZaps';
 import HowOlympusWorks from './components/HowOlympusWorks';
+import Sustainable from './components/Sustainable';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <Introducing/>
       <OlyZaps/>
       <HowOlympusWorks/>
+      <Sustainable/>
+
     </div>
   );
 }
