@@ -5,6 +5,16 @@ section.how-olympus-works-section{
     max-width: 1280px;
     margin-right: auto;
     margin-left: auto;
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .arrow-right{
+        max-width: 20em;
+        height: 150px;
+        vertical-align: middle;
+    }
     
     h2{
         font-size: 3.75rem;
@@ -42,7 +52,7 @@ section.how-olympus-works-section{
     .row{
         display: flex;
         flex-direction: row;
-        
+        vertical-align: middle;
 
         .left-col{
             max-width: 20rem;
@@ -60,7 +70,10 @@ section.how-olympus-works-section{
         display: flex;
         flex-direction: column;
         .arrow{
-            max-width: 40vw;
+            width: 60%;
+            height: auto;
+            margin-top: 10px;
+            //max-width: 40vw;
         }
         .content{
             display: flex;

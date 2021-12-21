@@ -7,6 +7,25 @@ section.how-olympus-works-section {
   margin-left: auto;
 }
 
+section.how-olympus-works-section .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.how-olympus-works-section .arrow-right {
+  max-width: 20em;
+  height: 150px;
+  vertical-align: middle;
+}
+
 section.how-olympus-works-section h2 {
   font-size: 3.75rem;
 }
@@ -53,6 +72,7 @@ section.how-olympus-works-section .row {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  vertical-align: middle;
 }
 
 section.how-olympus-works-section .row .left-col {
@@ -76,7 +96,9 @@ section.how-olympus-works-section .row-2 {
 }
 
 section.how-olympus-works-section .row-2 .arrow {
-  max-width: 40vw;
+  width: 60%;
+  height: auto;
+  margin-top: 10px;
 }
 
 section.how-olympus-works-section .row-2 .content {
