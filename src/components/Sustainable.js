@@ -1,5 +1,7 @@
 import React from 'react'
 import "../styles/Sustainable.css"
+import BoldButton from "../components/Buttons/BoldButton"
+
 function Sustainable() {
     return (
         <section className='sustainable-section'>
@@ -9,14 +11,15 @@ function Sustainable() {
                     <div className="left-column">
                         <h3>5,188%</h3>
                         <p>OHM Staking APY</p>
+                        <BoldButton text="Stake now"/>
                     </div>
+                    <div className='divider'></div>
                     <div className="right-column">
                         <h4>Treasury Regulated APY</h4>
                         <p className='blurry'>Treasury inflow will always outperform staking rewards</p>
                         <p>Olympus is designed with long-term protocol health in mind. All OHM minted for staking rewards are backed with a reserve from the Treasury.</p>
                     </div>
                 </div>
-                <p>Swap any asset into staked variations of OHM with OlyZaps to reduce complexity that saves you time while making gas fees more transparent and efficient.</p>
 
                 <div className="row-middle">
                     <p>Olympus rewards stakers with compounding interest, increasing their OHM holdings over time.</p>
