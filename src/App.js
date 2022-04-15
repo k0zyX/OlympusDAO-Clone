@@ -6,6 +6,7 @@ import Introducing from './components/Introducing';
 import OlyZaps from './components/OlyZaps';
 import HowOlympusWorks from './components/HowOlympusWorks';
 import Sustainable from './components/Sustainable';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <OlyZaps/>
       <HowOlympusWorks/>
       <Sustainable/>
+      <Footer/>
 
     </div>
   );

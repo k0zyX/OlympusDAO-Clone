@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;600&family=Red+Hat+Text:wght@300;400;600;700&display=swap');
+
 :root{
     --primary-color: #007af3;
+}
+body{
+    font-family: 'Red Hat Text', sans-serif;
 }
 
 .navbar{
