@@ -2,7 +2,7 @@
 
 ## Installation
 
-Photo Gallery requires [Node.js](https://nodejs.org/) v10+ to run.
+Olympus DAO React Clone requires [Node.js](https://nodejs.org/) v10+ to run.
 
 Install the dependencies and devDependencies and start the server.
 
