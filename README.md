@@ -15,4 +15,4 @@ npm start
 
 ## Screenshots
 ### You can see all website here
-![OlympusDAO](/README_Photos/React.jpg "OlympusDAO Index")
+![OlympusDAO](/README_Photo/React.jpg "OlympusDAO Index")
